@@ -1,0 +1,9 @@
+<h1 class="white-text">Hello from index list</h1>
+
+<% @lists.each do |list| %>
+  <div class="white-text">
+
+  <p><%= list.name %></p>
+  <p><%= list.user_id %></p>
+  </div>
+<%end  %>

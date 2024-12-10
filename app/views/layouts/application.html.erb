@@ -11,6 +11,9 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= render "components/navbar" %>
+    <div class="container bg-dark">
+      <%= yield %>
+    </div>
   </body>
 </html>
